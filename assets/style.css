@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+}
+
+H1 {
+  font-family: "Montserrat", serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(169, 20, 20);
+  text-align: center;
+  margin-bottom: 20px;
+}
+main {
+}
+#Tombola div {
+  display: inline-block;
+}
+#Tombola {
+  background-color: rgb(236, 233, 229);
+  width: 1600px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+#Tombola h3 {
+  font-size: 80px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.segno h3 {
+  text-decoration: underline dotted red;
+}
+#Panariello {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: rgb(255, 205, 5);
+  border: none;
+  padding: 20px;
+  font-family: "Montserrat";
+  font-size: 40px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+#NumeriEstratti {
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-size: 30px;
+  background-color: antiquewhite;
+  border-radius: 150px;
+  padding: 16px;
+  border: 8px solid rgb(169, 20, 20);
+  color: rgb(169, 20, 20);
+  font-family: "Nunito";
+  margin: 6px;
+  font-weight: bold;
+}
